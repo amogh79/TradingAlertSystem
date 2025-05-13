@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "CheniereScrapperFunction": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7015"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "containerRunArguments": "--init",
+      "httpPort": 31921,
+      "useSSL": false
+    }
+  }
+}
